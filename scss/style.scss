@@ -588,8 +588,7 @@ a[data-lightbox]:hover::before {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
     width: 50px;
-    height: 50px;
-    margin-left: -25px;
+    height: 50px;    
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -597,8 +596,9 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%,-50% );
+    -webkit-transform: translate(-50%,-50%);
 }
 
 a[data-lightbox]:hover img {
