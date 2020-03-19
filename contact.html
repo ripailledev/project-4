@@ -78,12 +78,19 @@
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label for="email">Comment nous avez-vous connu ?</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<label for="comment nous avez-vous connu ?">Comment nous avez-vous connu ?</label>
+							<select name="renseignements" id="renseignement-select">
+								<option value="">--Merci de selectionner une option--</option>
+								<option value="Pub">Publicité</option>
+								<option value="Social-network">Réseaux sociaux</option>
+								<option value="Website">Site web</option>
+								<option value="word-of-mouth">Bouche à oreille</option>
+								<option value="Other">Autres</option>
+							</select>
 					</div>
 					<div class="form-group">
 						<label>Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
-						<textarea id="message" class="form-control" rows="4" cols="50" required>Brief de votre projet</textarea>
+						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
