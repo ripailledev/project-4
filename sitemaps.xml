@@ -14,4 +14,10 @@
     <priority>0.80</priority>
     </url>
 
+    <url>
+    <loc>http://lachouetteagence.jerome-ripa.fr/mentionslegales.html</loc>
+    <lastmod>2020-02-05T17:10:12+00:00</lastmod>
+    <priority>0.80</priority>
+    </url>
+
 </urlset>
